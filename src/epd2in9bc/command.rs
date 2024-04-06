@@ -26,6 +26,7 @@ pub(crate) enum Command {
     TemperatureSensorSelection = 0x41,
     VcomAndDataIntervalSetting = 0x50,
     ResolutionSetting = 0x61,
+    GetStatus = 0x71,
     VcmDcSetting = 0x82,
     PowerSaving = 0xE3,
 }
